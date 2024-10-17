@@ -1,0 +1,257 @@
+form {
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(120, 118, 118, 0.8);
+  box-shadow: 10px 10px 20px #111 -10px -10px 20px #ddd;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  width: auto;
+}
+
+.registerh1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(120, 118, 118, 0.8);
+  box-shadow: 10px 10px 20px #111 -10px -10px 20px #ddd;
+  padding: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.yutton {
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  margin-top: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+div {
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+div > h1 + h1 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(120, 118, 118, 0.8);
+  box-shadow: 10px 10px 20px #111 -10px -10px 20px #ddd;
+  margin-top: 0px;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  border-radius: 5px;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(120, 118, 118, 0.8);
+  box-shadow: 10px 10px 20px #111 -10px -10px 20px #ddd;
+}
+
+.logger {
+  text-align: center;
+  /* padding: 10px; */
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.logger a {
+  color: rgb(255, 50, 50);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.donk {
+  padding: 0px 150px 110px 150px;
+}
+
+.logout {
+  margin-left: 65px;
+}
+
+h1.sand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(120, 118, 118, 0.8);
+  box-shadow: 10px 10px 20px #111;
+}
+
+h2.ust,
+h2.dust {
+  margin-top: 0px;
+  padding: 10px;
+  text-align: left;
+  color: #ffffff;
+  position: sticky;
+  border-radius: 5px;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(120, 118, 118, 0.8);
+  box-shadow: 10px 10px 20px #111;
+  display: flex;
+  justify-content: center;
+}
+
+.boody {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container {
+  background-color: none;
+  height: 100%;
+  border-radius: 5px;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.userlist {
+  border-radius: 5px;
+  width: 70%;
+}
+
+.dashboard {
+  width: 100%;
+}
+
+button {
+  width: auto;
+  margin-top: 0px;
+  background-color: #000000;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid black;
+}
+
+ol.sawd {
+  list-style-type: none;
+  /* width: 110%; */
+  max-height: 470px;
+  overflow-y: scroll;
+  scroll-snap-type: both mandatory;
+  scrollbar-color: black;
+  margin-top: 0px;
+}
+
+ol.sawd li {
+  background-color: #797272;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 8px;
+  margin-right: 10px;
+  margin-top: 8px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+ol.sawd li:hover {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #a1a1a1;
+}
+
+ol.sawd li strong {
+  color: #000000;
+}
+
+.delico {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: 0.8s;
+}
+
+.delico:hover {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+
+.password-input-wrappr {
+  position: relative;
+  align-items: flex-start;
+  margin-bottom: 0px;
+}
+
+.show {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  transform: translateY(-50%);
+}
+
+.show-password-icon {
+  position: absolute;
+  right: 10px;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.loader {
+  margin-left: 100px;
+  margin-top: 150px;
+}
